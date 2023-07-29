@@ -1,0 +1,27 @@
+body{
+    background-color:hsl(210, 11%, 20%);
+}
+
+.shadow-bg{
+    box-shadow: 5px 5px 30px 5px #000;
+}
+
+.form-control{
+    background-color: transparent;
+}
+.btn-outline-info:hover{
+color: #fff;
+}
+
+.form-control{
+color: #fff;
+}
+.form-control:focus{
+background-color: transparent;
+box-shadow: none;
+color: #fff;
+
+}
+.form-control::placeholder{
+    color: rgb(176, 175, 175);
+}
